@@ -7,7 +7,7 @@ CREATE DATABASE projeto_backend_angela;
 use projeto_backend_angela;
 --
 create table usuarios(
-    id_usuario INT PRIMARY KEY AUTO_INCREMENT,
+    id_usuario INT PRIMARY KEY,
     nome VARCHAR(50) NOT NULL,
     login VARCHAR(50) NOT NULL,
     senha VARCHAR(10) NOT NULL 
